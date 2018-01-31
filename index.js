@@ -13,3 +13,7 @@ function createFareMultiplier(int) {
     return fare * int
   }
 }
+
+const fareDoubler = function (int) {
+  return createFareMultiplier(2)
+}
